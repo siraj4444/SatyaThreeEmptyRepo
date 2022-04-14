@@ -11,6 +11,7 @@ namespace EntityDbFirst
         public int? CategoryId { get; set; }
 
         public virtual TblCategories Category { get; set; }
+        public string MyFile3 {get;set;}
 
         
     }
